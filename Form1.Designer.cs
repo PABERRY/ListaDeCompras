@@ -37,16 +37,7 @@
             this.libCompras = new System.Windows.Forms.ListBox();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
-            this.dtvCompras = new System.Windows.Forms.DataGridView();
-            this.coluna1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Coluna2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coluna3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lblQuantidade = new System.Windows.Forms.Label();
-            this.lblMarca = new System.Windows.Forms.Label();
-            this.txbMarca = new System.Windows.Forms.TextBox();
-            this.txbQuantidade = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.piblogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtvCompras)).BeginInit();
             this.SuspendLayout();
             // 
             // piblogo
@@ -126,82 +117,12 @@
             this.btnLimpar.UseVisualStyleBackColor = true;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
-            // dtvCompras
-            // 
-            this.dtvCompras.BackgroundColor = System.Drawing.Color.White;
-            this.dtvCompras.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtvCompras.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.coluna1,
-            this.Coluna2,
-            this.coluna3});
-            this.dtvCompras.Location = new System.Drawing.Point(390, 268);
-            this.dtvCompras.Name = "dtvCompras";
-            this.dtvCompras.Size = new System.Drawing.Size(398, 173);
-            this.dtvCompras.TabIndex = 8;
-            // 
-            // coluna1
-            // 
-            this.coluna1.HeaderText = "Nome";
-            this.coluna1.Name = "coluna1";
-            this.coluna1.ReadOnly = true;
-            // 
-            // Coluna2
-            // 
-            this.Coluna2.HeaderText = "Quantidae";
-            this.Coluna2.Name = "Coluna2";
-            this.Coluna2.ReadOnly = true;
-            // 
-            // coluna3
-            // 
-            this.coluna3.HeaderText = "Marca";
-            this.coluna3.Name = "coluna3";
-            this.coluna3.ReadOnly = true;
-            // 
-            // lblQuantidade
-            // 
-            this.lblQuantidade.AutoSize = true;
-            this.lblQuantidade.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuantidade.Location = new System.Drawing.Point(27, 222);
-            this.lblQuantidade.Name = "lblQuantidade";
-            this.lblQuantidade.Size = new System.Drawing.Size(129, 26);
-            this.lblQuantidade.TabIndex = 9;
-            this.lblQuantidade.Text = "Quantidade: ";
-            // 
-            // lblMarca
-            // 
-            this.lblMarca.AutoSize = true;
-            this.lblMarca.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMarca.Location = new System.Drawing.Point(52, 257);
-            this.lblMarca.Name = "lblMarca";
-            this.lblMarca.Size = new System.Drawing.Size(72, 26);
-            this.lblMarca.TabIndex = 10;
-            this.lblMarca.Text = "Marca:";
-            // 
-            // txbMarca
-            // 
-            this.txbMarca.Location = new System.Drawing.Point(196, 257);
-            this.txbMarca.Name = "txbMarca";
-            this.txbMarca.Size = new System.Drawing.Size(173, 25);
-            this.txbMarca.TabIndex = 11;
-            // 
-            // txbQuantidade
-            // 
-            this.txbQuantidade.Location = new System.Drawing.Point(196, 225);
-            this.txbQuantidade.Name = "txbQuantidade";
-            this.txbQuantidade.Size = new System.Drawing.Size(173, 25);
-            this.txbQuantidade.TabIndex = 12;
-            // 
             // Forms1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(900, 530);
-            this.Controls.Add(this.txbQuantidade);
-            this.Controls.Add(this.txbMarca);
-            this.Controls.Add(this.lblMarca);
-            this.Controls.Add(this.lblQuantidade);
-            this.Controls.Add(this.dtvCompras);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.libCompras);
@@ -219,7 +140,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de compras";
             ((System.ComponentModel.ISupportInitialize)(this.piblogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtvCompras)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -235,14 +155,6 @@
         private System.Windows.Forms.ListBox libCompras;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnLimpar;
-        private System.Windows.Forms.DataGridView dtvCompras;
-        private System.Windows.Forms.DataGridViewTextBoxColumn coluna1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Coluna2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn coluna3;
-        private System.Windows.Forms.Label lblQuantidade;
-        private System.Windows.Forms.Label lblMarca;
-        private System.Windows.Forms.TextBox txbMarca;
-        private System.Windows.Forms.TextBox txbQuantidade;
     }
 }
 
