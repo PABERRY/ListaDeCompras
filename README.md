@@ -4,7 +4,7 @@ Este é um programa simples de gerenciamento de **lista de compras**, desenvolvi
 
 ## 📸 Captura de Tela
 
-![Captura de Tela](print.png)
+![Captura de Tela](print.jpg)
 
 ---
 
